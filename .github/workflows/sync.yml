@@ -17,7 +17,7 @@ jobs:
 
       - name: Fetch Data
         run: |
-          git clone https://gitlab.com/lodepuly/vpn_tool.git
+          git clone https://gitlab.com/lodepuly/vpn_tool.git sync_repo
 
       - name: Commit Changes
         run: |
